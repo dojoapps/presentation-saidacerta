@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Saida Certa</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+
+
+        <style type="text/css">
+            body {
+                background: #101B2F;
+                font-family: "open_sansregular","Segoe UI","Segoe WP","Helvetica Neue",sans-serif;
+                color: #C5C5C5;
+                font-size: 1.5em;
+            }
+
+            .step {
+                text-align: center;
+                width: 650px;
+            }
+
+            .step ul {
+                text-align: left;
+            }
+
+            h2 {
+                color: #11A9CB;
+                font-family: 'cadenaregular', "Segoe UI","Segoe WP","Helvetica Neue",sans-serif;
+                font-size: 2.6em;
+                border-bottom: 2px solid #FF6A1F;
+            }
+
+            .text {
+                font-size: 1.3em;
+                text-align: left;
+            }
+
+            /*#intro {
+                width: 450px;
+                height: 450px;
+            }*/
+            .ss {
+                width: 40%;
+            }
+
+            .como img {
+                vertical-align: top;
+            }
+
+            #time img {
+                width: 60px;   
+            }
+
+            .conheca {
+                display: block;
+                color: #C8C8C8;
+                font-size: 1.5em;
+                font-weight: normal;
+                margin-bottom: 20px;
+                text-align: center;
+            }
+
+            #info-teste {
+                position: fixed:
+                bottom: 0;
+                text-align: center;
+            }
+        </style>
+        <script src="scripts/vendor/modernizr.min.js"></script>
+        <link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />
+    </head>
+    <body>
+        <div id="impress">
+            <div id="intro" class="step slide" data-x="0" data-y="0" data-z="0" data-scale="1">
+                <h2>Saída Certa</h2>
+                <p class="text">Mobile payment solution for nightclub goers to pay their tab and leave without waiting in line.</p>
+                <img class="ss" src="imgs/ss-splash.png">
+            </div>
+
+            <div class="step" data-x="2000" data-y="0">
+                <h2>Problem</h2>
+                
+                <p class="text">In Brazil, you receive a tab card whenever you go to a nightclub.</p>
+                <p class="text">Big lines to pay your tab are boring and a waste of time.</p>
+                <p class="text">People leave early to avoid lines and clubs lose profit.</p>
+            </div>
+
+            <div id="solucao" class="step" data-x="4000" data-y="0" data-z="0" data-scale="1">
+                <h2>Solution</h2>
+                <p class="text">Using Saída Certa you have real time access to your tab.</p>
+                <p class="text">If you want to leave, pay your tab directly from your phone and your're free to go.</p>
+            </div>
+
+             <div id="passo1" class="step como" data-x="4000" data-y="2000" data-z="-1000" data-rotate="90">
+                <h2>Choose where</h2>
+                <img class="ss" src="imgs/ss-venues.png">
+            </div>
+             <div id="passo2" class="step como" data-x="4000" data-y="3000" data-z="-1300" data-rotate="90">
+                <h2>Type your tab number</h2>
+                <img class="ss" src="imgs/ss-tab.png">
+            </div>
+             <div id="passo3" class="step como" data-x="4000" data-y="4000" data-z="-1600" data-rotate="90">
+                <h2>See details and pay</h2>
+                <img class="ss" src="imgs/ss-details.png">
+            </div>
+             <div id="passo4" class="step como" data-x="4000" data-y="5000" data-z="-1900" data-rotate="90">
+                <h2>Confirmation</h2>
+                <img class="ss" src="imgs/ss-confirmation.png">
+            </div>
+
+            <div class="step" data-x="4000" data-y="8000">
+                <h2>Customer Segments</h2>
+                <ul>
+                    <li><p class="text">Smartphone users at nightclubs</p></li>
+                    <li><p class="text">Nightclubs</p></li>
+                </ul>
+            </div>
+
+            <div class="step" data-x="6000" data-y="10000">
+                <h2>Differential</h2>
+
+                <p class="text">Partnership with one of the top sofware provider for nightclubs in Brazil</p>
+                <p class="text"><img src="imgs/mdc.png"></p> 
+            </div>
+
+            <div class="step" data-x="8000" data-y="8000">
+                <h2>Revenue Stream</h2>
+
+                <ul>
+                    <p class="text">Charge a fee from the user for each transaction.</p>
+                </ul>
+            </div>
+
+            <div class="step" data-x="8000" data-y="6000">
+                <h2>Investment Needed</h2>
+
+                <ul>
+                    <p class="text">US$ 400,000.00</p>
+                    <p class="text">Hire staff, marketing, operational costs</p>
+                </ul>
+            </div>
+
+            <div class="step" id="time" data-x="10000" data-y="8000">
+                <h2>Team</h2>
+            
+                <p class="text"><img src="imgs/kinho.jpg"> André Cytryn</p>
+                <p class="text"><img src="imgs/duws.jpg"> Eduardo Hall</p>
+                <p class="text"><img src="imgs/amor.jpg"> Felipe Amorim</p>
+                <p class="text"><img src="imgs/vansan.jpg"> Vicende de Alencar</p>
+            </div>            
+        </div>
+        <script src="scripts/vendor/impress.js"></script>
+        <script>impress().init();</script>
+    </body>
+</html>
